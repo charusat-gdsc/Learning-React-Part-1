@@ -1,0 +1,67 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bouncing Ball Animation</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        display: block;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: purple;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        animation-name: "bounce";
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        -webkit-animation-name: "bounce";
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+      }
+
+      /* Describe what type of animation you want to insert */
+      @keyframes bounce {
+        0% {
+          top: 80px;
+          background-color: purple;
+        }
+        50% {
+          top: 350px;
+          background-color: aqua;
+        }
+        100% {
+          top: 80px;
+          background-color: purple;
+        }
+      }
+
+      @-webkit-keyframes bounce {
+        0% {
+          top: 80px;
+          background-color: purple;
+        }
+        50% {
+          top: 350px;
+          background-color: aqua;
+        }
+        100% {
+          top: 80px;
+          background-color: purple;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bouncing Ball Animation</h1>
+    <div></div>
+  </body>
+</html>
