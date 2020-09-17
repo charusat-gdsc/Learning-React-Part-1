@@ -1,0 +1,18 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="demo"></p>
+    <button onclick="myFunction()">Click Here!</button>
+  </body>
+  <script>
+    var random_stuff = ["PUBG", "FAUG", "FORTNITE"];
+    function check(stuff) {
+      return stuff == "PUBG";
+    }
+    function myFunction() {
+      document.getElementById("demo").innerHTML = random_stuff.filter(check);
+    }
+  </script>
+</html>
