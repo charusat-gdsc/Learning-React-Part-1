@@ -1,4 +1,4 @@
-# event1-html-css-js
+# Basic HTML Tags 
 This branch contains information about the Basic HTML tags like 
 <ul>
   <li>Meta tag</li>
