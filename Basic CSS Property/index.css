@@ -1,0 +1,18 @@
+/** @format */
+
+.property {
+  color: tomato;
+  background-color: lightblue;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
