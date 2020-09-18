@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style>
+            .container1{
+                border: 2px solid black;
+                display: flex; 
+                /* 
+                align-items: center;
+                align-items: flex-end;
+                align-items: flex-start; 
+                */ /* align items so that it do not stretch with default */
+                /*
+                flex-direction: column;
+                flex-direction: row;
+                flex-direction: row-reverse;
+                */ /* changes direction of flex */
+                
+            }
+
+            .container2{
+                border: 2px solid black;
+                display: flex; 
+                /* justify-content: flex-end; 
+                justify-content: flex-start;*/ /* justify content inside container */
+                justify-content: center;
+            }
+
+            .container2 div{ 
+                padding: 15px;
+                border: none;
+                margin: 2px;
+                width: 10%;
+            }
+
+            .container3{
+                border: 2px solid black;
+                display: flex; 
+                flex-wrap: wrap;
+            }
+
+            .container3 div{ 
+                padding: 15px;
+                border: none;
+                margin: 2px;
+                width: 10%;
+            }
+
+            .container1 div{
+                padding: 15px;
+                border: none;
+                margin: 2px;
+            }
+            .item1{
+                background-color: #4285F4;
+                /* flex: 1; */  /* to change size of div in the container */
+                order: 2; /* order div positions */
+            }
+            .item2{
+                background-color: #DB4437;
+                
+            }
+            .item3{
+                background-color: #F4B400;
+                
+
+            }
+            .item4{
+                background-color: #0F9D58;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Flexbox</h1>
+        <div class="container1">
+            <div class="item1">
+                <h1>Item 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+            </div>
+            <div class="item2">
+                <h1>Item 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+            <div class="item3">
+                <h1>Item 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+            <div class="item4">
+                <h1>Item 4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container2">
+            <div class="item1">
+                <h1>Item 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+            </div>
+            <div class="item2">
+                <h1>Item 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+                
+
+            </div>
+            <div class="item3">
+                <h1>Item 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+            <div class="item4">
+                <h1>Item 4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container3">
+            <div class="item1">
+                <h1>Item 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+            </div>
+            <div class="item2">
+                <h1>Item 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+                
+
+            </div>
+            <div class="item3">
+                <h1>Item 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+            <div class="item4">
+                <h1>Item 4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+            <div class="item1">
+                <h1>Item 5</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+            <div class="item2">
+                <h1>Item 6</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+            <div class="item3">
+                <h1>Item 7</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+            <div class="item4">
+                <h1>Item 6</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+            <div class="item1">
+                <h1>Item 7</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident suscipit, esse fuga labore, officia et aliquam necessitatibus quam numquam doloremque architecto adipisci commodi totam! </p>
+
+            </div>
+        </div>
+    </body>
+</html>
