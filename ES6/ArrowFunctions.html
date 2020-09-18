@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Functions</title>
+    </head>
+    <body>
+        <h1>JS Functions</h1>
+        <script>
+
+            var functionName = () => console.log("Greetings from DSC Team"); 
+            // normal arrow functions
+
+            var functionWithPara = (name, last) => console.log("Hello from " + name + last); 
+            // arrow function with parameters
+
+            var function1 = () => {
+                var a = 1;
+                return (a+5);
+            } // arrow function with return type
+
+            var name = "John";
+            var last = " Doe";
+            var num = 5;
+
+            functionName(name); // calling functions
+            functionWithPara(name, last);
+            console.log(function1(num)); //function called in console.log itself
+
+        </script>
+    </body>
+</html>
