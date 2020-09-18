@@ -12,4 +12,8 @@ This branch is divided into three Folders and follow in the order provided below
     <h1>Basic CSS Properties</h1>
     <li><a href="https://github.com/charusat-gdsc/event1-html-css-js/blob/Basic-CSS/Basic%20CSS%20Property/CSS_Properties.html">Basic CSS Properties</a></li>
   </ul>
+   <ul>
+    <h1>Flexbox</h1>
+    <li><a href="https://github.com/charusat-gdsc/event1-html-css-js/blob/Basic-CSS/Flexbox/Flexbox.html">Flexbox</a></li>
+  </ul>
  </ul>
